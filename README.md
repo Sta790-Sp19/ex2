@@ -33,4 +33,6 @@ x = matrix(rnorm(1e6), 1e3)
 z = x %*% x
 ```
 
+* Pay attention to the version of R you get in the `debian:stretch` image - does matching versions appear to matter?
+
 * Which container performed better? Based on `r-ver`s Dockerfile do you have any idea about why this difference might exist?
