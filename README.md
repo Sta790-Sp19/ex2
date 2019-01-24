@@ -10,7 +10,7 @@ Exercise 2 - Week 2
 
 ### Task 1 - Creating an R focused docker image reproducibly
 
-* Using rocker's r-ver as your base image create a "light weight" image that provides at least the following packages
+* Using rocker's `r-ver` as your base image create a "light weight" image that provides at least the following packages
 
   * Data handling - `tidyverse`, `sf`
   * Modeling - `tidymodels`, `rjags`, `rstan`, `brms`
@@ -20,7 +20,7 @@ Exercise 2 - Week 2
 
 * Write up a Dockerfile that will reproducibly create this image 
 
-* Make sure that `docker build` is able to completely and correctly build your image
+* Make sure that `docker build` is able to completely and correctly build your image and that you are able to create working containers that contain working packages.
 
 
 ### Task 2 - Performance
