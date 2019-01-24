@@ -29,7 +29,7 @@ Exercise 2 - Week 2
 linear algebra operation (you should only benchmark the matrix multiplication, not the matrix generation):
 
 ```r
-x = matrix(rnorm(1e8), 1e4)
+x = matrix(rnorm(1e6), 1e3)
 z = x %*% x
 ```
 
